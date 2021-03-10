@@ -48,6 +48,3 @@ REFERENCES "key_sku" ("product_sku");
 ALTER TABLE "retail" ADD CONSTRAINT "fk_retail_invoice_date" FOREIGN KEY("invoice_date")
 REFERENCES "marketing_spend" ("date");
 
-ALTER TABLE "retail" ADD CONSTRAINT "fk_retail_stock_code" FOREIGN KEY("stock_code")
-REFERENCES "key_sku" ("stock_code");
-
